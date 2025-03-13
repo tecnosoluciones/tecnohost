@@ -1,0 +1,61 @@
+# WordPress core files
+wp-config.php
+wp-config-sample.php
+
+# wp-content/uploads - Archivos subidos por los usuarios (fotos, vídeos, etc.)
+wp-content/uploads/
+
+# wp-content/cache - Archivos de caché generados por plugins o temas
+wp-content/cache/
+
+# wp-content/backups - Archivos de copias de seguridad
+wp-content/backups/
+
+# wp-content/upgrade - Archivos temporales de actualización
+wp-content/upgrade/
+
+
+# Logs de servidor y archivos temporales
+*.log
+*.bak
+*.swp
+*.tmp
+*.jpg
+*.gif
+*.svg
+*.json
+*.zip
+*.ttf
+*.txt
+*.mo
+*.otf
+*.eot
+*.po
+*.woff
+*.woff2
+*.png
+*.jpeg
+*.pot
+
+# Directorios y archivos temporales de IDEs o editores de código
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.wp-cli
+
+# Archivos de configuración local de WordPress
+wp-content/debug.log
+
+# Archivos de copia de seguridad local o específicos del entorno de desarrollo
+*.sql
+*.tar.gz
+*.zip
+
+# Otros archivos específicos de la instalación local que no deben ser versionados
+.DS_Store
+Thumbs.db
+
+error_log
+
+/cortina (1).zip

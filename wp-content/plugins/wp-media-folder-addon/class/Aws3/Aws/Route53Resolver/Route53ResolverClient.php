@@ -1,0 +1,53 @@
+<?php
+namespace WP_Media_Folder\Aws\Route53Resolver;
+
+use WP_Media_Folder\Aws\AwsClient;
+
+/**
+ * This client is used to interact with the **Amazon Route 53 Resolver** service.
+ * @method \WP_Media_Folder\Aws\Result associateResolverEndpointIpAddress(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise associateResolverEndpointIpAddressAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result associateResolverRule(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise associateResolverRuleAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result createResolverEndpoint(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise createResolverEndpointAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result createResolverRule(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise createResolverRuleAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result deleteResolverEndpoint(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise deleteResolverEndpointAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result deleteResolverRule(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise deleteResolverRuleAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result disassociateResolverEndpointIpAddress(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise disassociateResolverEndpointIpAddressAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result disassociateResolverRule(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise disassociateResolverRuleAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result getResolverEndpoint(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise getResolverEndpointAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result getResolverRule(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise getResolverRuleAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result getResolverRuleAssociation(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise getResolverRuleAssociationAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result getResolverRulePolicy(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise getResolverRulePolicyAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result listResolverEndpointIpAddresses(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise listResolverEndpointIpAddressesAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result listResolverEndpoints(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise listResolverEndpointsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result listResolverRuleAssociations(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise listResolverRuleAssociationsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result listResolverRules(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise listResolverRulesAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result listTagsForResource(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise listTagsForResourceAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result putResolverRulePolicy(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise putResolverRulePolicyAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result tagResource(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise tagResourceAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result untagResource(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise untagResourceAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result updateResolverEndpoint(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise updateResolverEndpointAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result updateResolverRule(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise updateResolverRuleAsync(array $args = [])
+ */
+class Route53ResolverClient extends AwsClient {}

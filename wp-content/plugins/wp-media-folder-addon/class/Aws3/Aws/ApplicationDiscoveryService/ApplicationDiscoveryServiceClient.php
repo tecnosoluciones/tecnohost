@@ -1,0 +1,53 @@
+<?php
+namespace WP_Media_Folder\Aws\ApplicationDiscoveryService;
+
+use WP_Media_Folder\Aws\AwsClient;
+
+/**
+ * This client is used to interact with the **AWS Application Discovery Service** service.
+ * @method \WP_Media_Folder\Aws\Result associateConfigurationItemsToApplication(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise associateConfigurationItemsToApplicationAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result createApplication(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise createApplicationAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result createTags(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise createTagsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result deleteApplications(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise deleteApplicationsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result deleteTags(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise deleteTagsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result describeAgents(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise describeAgentsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result describeConfigurations(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise describeConfigurationsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result describeContinuousExports(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise describeContinuousExportsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result describeExportConfigurations(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise describeExportConfigurationsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result describeExportTasks(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise describeExportTasksAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result describeTags(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise describeTagsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result disassociateConfigurationItemsFromApplication(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise disassociateConfigurationItemsFromApplicationAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result exportConfigurations(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise exportConfigurationsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result getDiscoverySummary(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise getDiscoverySummaryAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result listConfigurations(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise listConfigurationsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result listServerNeighbors(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise listServerNeighborsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result startContinuousExport(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise startContinuousExportAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result startDataCollectionByAgentIds(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise startDataCollectionByAgentIdsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result startExportTask(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise startExportTaskAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result stopContinuousExport(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise stopContinuousExportAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result stopDataCollectionByAgentIds(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise stopDataCollectionByAgentIdsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result updateApplication(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise updateApplicationAsync(array $args = [])
+ */
+class ApplicationDiscoveryServiceClient extends AwsClient {}

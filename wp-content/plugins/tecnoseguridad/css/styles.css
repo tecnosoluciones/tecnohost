@@ -1,0 +1,59 @@
+body.woocommerce-account ul li.woocommerce-MyAccount-navigation-link--autenticacion_en_dos_factores a:before {
+    content: "\f3ed";
+}
+
+div#usuari_two_fac button.toggle-row {
+    display: none;
+}
+
+div#usuari_two_fac a.button.button-secondary,
+div#usuari_two_fac button.button.button-two-factor-backup-codes-generate.button-secondary.hide-if-no-js{
+    border-radius: 5px 5px 5px 5px;
+    font-family: "Source Sans Pro", Sans-serif;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #58a93e;
+    color: #fff;
+    background: #58a93e;
+}
+
+div#usuari_two_fac button#two-factor-totp-new-secret {
+    background: #4a9dc3;
+    color: #fff;
+    border-width: 2px 2px 2px 2px;
+    border-color: #4a9dc3;
+    border-radius: 5px 5px 5px 5px;
+    font-family: "Source Sans Pro", Sans-serif;
+    font-weight: bold;
+    border-style: solid;
+}
+
+div#usuari_two_fac div#two-factor-totp-options p {
+    margin-top: 13px !important;
+    margin-bottom: 13px !important;
+}
+
+div#usuari_two_fac code {
+    border: 1px solid;
+}
+
+div#usuari_two_fac p {
+    text-align: justify;
+}
+
+div#usuari_two_fac button#two-factor-totp-verify-authcode{
+    color: #ffffff;
+    font-family: "Source Sans Pro", Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #db4b0c;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9672e;
+    border-radius: 5px 5px 5px 5px;
+}
+
+div#usuari_two_fac input, div#usuari_two_fac input:focus {
+    width: auto;
+}

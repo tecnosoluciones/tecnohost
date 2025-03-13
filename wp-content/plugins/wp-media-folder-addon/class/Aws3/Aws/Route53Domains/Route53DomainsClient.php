@@ -1,0 +1,58 @@
+<?php
+namespace WP_Media_Folder\Aws\Route53Domains;
+
+use WP_Media_Folder\Aws\AwsClient;
+
+/**
+ * This client is used to interact with the **Amazon Route 53 Domains** service.
+ *
+ * @method \WP_Media_Folder\Aws\Result checkDomainAvailability(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise checkDomainAvailabilityAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result checkDomainTransferability(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise checkDomainTransferabilityAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result deleteTagsForDomain(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise deleteTagsForDomainAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result disableDomainAutoRenew(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise disableDomainAutoRenewAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result disableDomainTransferLock(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise disableDomainTransferLockAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result enableDomainAutoRenew(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise enableDomainAutoRenewAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result enableDomainTransferLock(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise enableDomainTransferLockAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result getContactReachabilityStatus(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise getContactReachabilityStatusAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result getDomainDetail(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise getDomainDetailAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result getDomainSuggestions(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise getDomainSuggestionsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result getOperationDetail(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise getOperationDetailAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result listDomains(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise listDomainsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result listOperations(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise listOperationsAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result listTagsForDomain(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise listTagsForDomainAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result registerDomain(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise registerDomainAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result renewDomain(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise renewDomainAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result resendContactReachabilityEmail(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise resendContactReachabilityEmailAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result retrieveDomainAuthCode(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise retrieveDomainAuthCodeAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result transferDomain(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise transferDomainAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result updateDomainContact(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise updateDomainContactAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result updateDomainContactPrivacy(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise updateDomainContactPrivacyAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result updateDomainNameservers(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise updateDomainNameserversAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result updateTagsForDomain(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise updateTagsForDomainAsync(array $args = [])
+ * @method \WP_Media_Folder\Aws\Result viewBilling(array $args = [])
+ * @method \WP_Media_Folder\GuzzleHttp\Promise\Promise viewBillingAsync(array $args = [])
+ */
+class Route53DomainsClient extends AwsClient {}

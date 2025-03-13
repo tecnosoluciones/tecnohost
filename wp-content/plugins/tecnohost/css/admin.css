@@ -1,0 +1,14 @@
+
+
+.container-tecnohost-admin{
+    padding: 20px;
+}
+.container-tecnohost-admin header{
+    background: #1b87e2;
+}
+
+#toplevel_page_tecnohost-setup .dashicons-before{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}

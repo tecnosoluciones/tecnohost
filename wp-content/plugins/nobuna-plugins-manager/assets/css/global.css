@@ -1,0 +1,17 @@
+.nobuna-color {
+    background-color: #0073aa;
+    padding-left: .5em !important;
+    padding-right: .5em !important;
+}
+
+#wp-admin-bar-nobunaadminui-nobunaplugins a.ab-item:hover
+{
+    color: white !important;
+}
+
+#wp-admin-bar-nobunaadminui-nobunaplugins a.ab-item
+{
+    color: #ddd !important;
+}
+
+

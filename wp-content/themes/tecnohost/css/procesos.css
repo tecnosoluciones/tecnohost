@@ -1,0 +1,377 @@
+h3#tt_pro {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    color: #1F2D69;
+}
+
+h3#tt_pas {
+    font-size: 22px;
+    text-align: center;
+    color: #1F2D69;
+    font-weight: bold;
+}
+
+h3#tt_pro strong,
+h3#tt_pas strong{
+    font-weight: bold;
+}
+
+tr.tit_zon td:before,
+.postbox.gravityflow-timeline h3 label:before,
+h3#tt_pro:before,
+div.gf_entry_wrap #poststuff .inside > strong:first-child:before,
+li.tit_seccion h2:before {
+    color: #D64C0F;
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+    font-weight: bold;
+    content: "\f101";
+    font-size: 22px;
+}
+
+div#poststuff div#post-body {
+    display: grid;
+    width: 100%;
+}
+
+#post-body.columns-2 #postbox-container-1 {
+    width: 100% !important;
+    margin-right: initial !important;
+}
+
+a.btn_volver {
+    border: 0;
+    border-radius: 3px;
+    background-color: #1F7ECD;
+    border-color: #1F7ECD;
+    color: #fff;
+    padding: .5em 1em;
+    font-weight: 600;
+    text-shadow: none;
+    display: block;
+    font-size: 18px;
+    margin: 0 auto !important;
+    max-width: 90px;
+}
+
+a.Pendiente{
+    color: #FF7E00;
+}
+
+a.Cancelado{
+    color: #E11313;
+}
+
+a.Aprobada {
+    color: #0FABBE;
+}
+
+a.Completado{
+    color: #2DB60D;
+}
+
+a.Pendiente:before {
+    content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+a.Aprobada:before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+a.Cancelado:before{
+    content: "\f00d";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+a.Completado:before{
+    content: "\f560";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+li.pending a {
+    color: #FF7E00;
+}
+
+li.complete a {
+    color: #2DB60D;
+}
+
+li.cancelled a {
+    color: #E11313;
+}
+
+div#minor-publishing a {
+    color: #000;
+    font-weight: bold;
+}
+
+.gform-field-filter {
+    margin-top: initial;
+    margin-bottom: 5px;
+}
+
+select.gform-filter-field {
+    min-height: 35px;
+}
+
+div#gravityflow-status-date-filters a.button-secondary {
+    background-color: #1F7ECD;
+    color: #fff;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#gravityflow-status-filter input.button-secondary,
+div#entry_filters input.gform-filter-value,
+div#entry_filters select.gform-filter-operator,
+div#gravityflow-status-date-filters a.button-secondary,
+div#entry_filters select.gform-filter-value{
+    min-height: 35px;
+}
+
+.gfield.gravityflow-display-field label.gfield_label,
+.gfield.gravityflow-display-field legend.gfield_label,
+.gfield.gravityflow-editable-field:not(.green-background):not(.gfield_error) label.gfield_label,
+.gfield.gravityflow-editable-field:not(.green-background):not(.gfield_error) legend.gfield_label{
+    background-color: #E8ECEE;
+    border-top: 1px solid #E8ECEE;
+}
+
+.gform_wrapper li.gfield.field_description_below+li.gsection, li.gsection {
+    width: 100% !important;
+}
+
+.gravityflow_workflow_wrap div.gform_fields div.gsection {
+    width: 100%;
+    float: left;
+    clear: initial !important;
+    grid-column: 1 / -1 !important;
+}
+
+.gform_wrapper.gravity-theme .gform_fields{
+    grid-template-columns: 50% 50% !important;
+}
+
+.gform_wrapper.gravity-theme .gfield{
+    grid-column: initial !important;
+}
+
+.gform_wrapper.gravity-theme .gfield input, textarea#gravityflow-note {
+    color: #666;
+    background: #fff;
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+}
+
+input#gravityflow_update_button {
+    background: none;
+    background-color: #e9672e;
+    color: #fff !important;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    font-size: 18px;
+    margin: 0 auto;
+    word-break: break-all;
+    border-style: solid !important;
+    border-width: 2px 2px 2px 2px !important;
+    border-color: #e9672e !important;
+    box-shadow: none;
+    padding: 9px 18px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gravityflow-action-buttons {
+    text-align: center !important;
+}
+
+div#minor-publishing input[name="_gravityflow_admin_action"] {
+    background: #58A93E;
+    font-size: 13px;
+    border: initial;
+    font-weight: bold;
+    border: initial;
+    width: 85px;
+    color: #fff !important;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.detail-view-print a.button {
+    background: #1F7ECD !important;
+    font-size: 13px !important;
+    border: initial !important;
+    font-weight: bold;
+    border: initial;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #fff !important;
+    width: 123px;
+    text-align: center;
+}
+
+div#adm_pan h3.hndle {
+    color: #1F2D69;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+div#minor-publishing div label:before, div#adm_pan h3.hndle:before {
+    content: "\f0da";
+    color: #d10a12;
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.gravityflow_workflow_wrap .postbox-container .button,
+div#minor-publishing .gravityflow_workflow_wrap .postbox-container .button,
+.gravityflow_workflow_wrap .postbox-container .button i{
+    color: #fff !important;
+}
+
+div[id^="postbox-container-"] .detail-view-print a {
+    color: #fff !important;
+}
+
+.postbox.gravityflow-timeline h3 label {
+    background: transparent;
+    border-bottom: none;
+    font-size: 22px;
+    font-weight: bold !important;
+    color: #1F2D69;
+}
+
+
+div#adm_pan div#submitcomment {
+    background: #f7f7f7;
+    border-top: 1px solid #d2d2d2;
+}
+
+.gsection h2,
+.gsection h3 {
+    font-size: 17.5px !important;
+    font-weight: bold !important;
+    color: #1F2D69;
+}
+
+.gsection h2:before,
+.gsection h3:before{
+    color: #D64C0F;
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+    font-weight: bold;
+    content: "\f101";
+    font-size: 22px;
+}
+
+h3.gsection_title {
+    margin-bottom: initial !important;
+    padding-bottom: initial !important;
+}
+
+.postbox.gravityflow-instructions {
+    background: #f9f4d1;
+    font-size: 16px;
+    color: #35383c;
+    line-height: initial;
+}
+
+div#submitcomment h4, div#gravityflow-status-box-container h3.hndle {
+    font-weight: 900;
+    color: #1F2D69;
+}
+
+div#minor-publishing, div#gravityflow-status-box-container h3.hndle {
+    font-size: 16px;
+}
+
+.gravityflow-action-buttons button[value="approved"] {
+    background: #58A93E !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    font-size: 20px !important;
+    padding: 8px 19px !important;
+    height: auto !important;
+}
+
+.gravityflow-action-buttons button[value="rejected"] {
+    box-shadow: none !important;
+    background: #F85959 !important;
+    font-size: 20px !important;
+    padding: 8px 19px !important;
+    height: auto !important;
+}
+
+td.entry-view-field-value {
+    border: none !important;
+}
+
+tr#datos_de_acceso_a_la_plataforma td.entry-view-section-break, tr#datos_del_proyecto td.entry-view-section-break, tr#datos_del_cliente td.entry-view-section-break, tr#datos_del_hosting td.entry-view-section-break, tr#datos_del_dominio td.entry-view-section-break, tr#departamento_de_diseño td.entry-view-section-break, tr#departamento_de_mercadeo td.entry-view-section-break, tr#datos_del_módulo td.entry-view-section-break, tr#departamento_de_desarrollo td.entry-view-section-break {
+    background: transparent;
+    border-bottom: none;
+    font-size: 22px;
+    font-weight: bold !important;
+    color: #1F2D69;
+}
+
+tr.tit_zon td.entry-view-section-break {
+    border-bottom: 1px solid !important;
+}
+
+input#doaction, input#doaction2, #gravityflow-status-filter input.button-secondary {
+    background: #58A93E;
+    font-size: 13px;
+    border: initial;
+    font-weight: bold;
+    border: initial;
+    width: 85px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+form#gravityflow-status-list .wp-list-table th,
+form#gravityflow-status-list .wp-list-table th a {
+    color: #fff !important;
+}
+
+#gravityflow-status-filter input {
+    color: #212121;
+    background: #fff;
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.gform-field-filter {
+    margin-top: initial !important;
+    padding-top: initial !important;
+    margin-bottom: initial !important;
+}
+
+select#gravityflow-form-select {
+    min-height: 35px;
+    margin-bottom: 5px;
+}
