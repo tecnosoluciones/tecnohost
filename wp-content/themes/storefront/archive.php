@@ -6,7 +6,6 @@
  *
  * @package storefront
  */
-
 get_header(); ?>
 
 	<div id="primary" class="content-area">
